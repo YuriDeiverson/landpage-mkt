@@ -65,8 +65,13 @@ body {
 }
 
 .nav-bar {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-bar.show {
   display: flex;
-  gap: 20px;
 }
 
 /* Banner */
