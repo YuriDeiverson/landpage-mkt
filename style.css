@@ -214,3 +214,92 @@ h3{
   width: 100%;
 }
 
+
+
+/* Responsivo para tablets */
+@media (max-width: 1024px) {
+  .container-hero-banner {
+    flex-direction: column;
+    padding: 100px 40px 40px 40px;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .container-hero-banner img {
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+  }
+
+  .container-sobre {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .footer-contatos {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Responsivo para celulares */
+@media (max-width: 768px) {
+  .container-header {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .nav-bar ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .container-hero-banner {
+    padding: 100px 20px 20px 20px;
+  }
+
+  h1, h2 {
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .container-Mkt {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .mkt-card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .container-sobre-content h2 {
+    font-size: 2rem;
+  }
+
+  .container-sobre-content p {
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: justify;
+  }
+
+  .footer-contatos {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .footer-contatos a {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+  }
+}
+
