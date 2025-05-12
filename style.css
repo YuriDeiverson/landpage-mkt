@@ -59,10 +59,14 @@ body {
 
 /* Botão de menu hamburguer */
 .menu-toggle {
-  display: none;
-  font-size: 1.5rem;
+   display: none;
+  font-size: 30px;
   cursor: pointer;
-  color: #000;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 20px;
 }
 
 /* Banner */
@@ -223,6 +227,7 @@ h3 {
 .footer-contatos a:hover::before {
   width: 100%;
 }
+
 
 /* ======= RESPONSIVO ======= */
 
